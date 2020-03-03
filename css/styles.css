@@ -93,6 +93,11 @@ header{
 	display:inline-block;
 }  
 
+/* product information */
+table, th, td {
+	border: 1px solid black;
+  }
+
 /* FOOTER SECTION */
 footer{
 	background-color: #008080;

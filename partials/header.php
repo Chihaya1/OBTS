@@ -13,29 +13,32 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-4 scart ">
+				<div class="col-sm-5 scart ">
 						<i class="fa fa-cart-arrow-down"></i>
 				</div> 
-				<div class="col-md-5">
+				<div class="col-md-12">
 					<nav class="navbar navbar-expand-sm header-list mt-2 justify-content-end pr-5">
 						<ul class="navbar-nav">
 							<li class="nav-item active">
-								<a class="nav-link" href="#">Home</a>
+								<a class="nav-link" href="index.php">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">About Us</a>
+								<a class="nav-link" href="about.php">About Us</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contact Us</a>
+								<a class="nav-link" href="contact.php">Contact Us</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Deposit Book</a>
+								<a class="nav-link" href="order.php">Order Book</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Donation</a>
+								<a class="nav-link" href="deposit.php">Deposit Book</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Login</a>
+								<a class="nav-link" href="donation.php">Donation</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="login.php">Login</a>
 							</li>
 						</ul>
 					</nav>
