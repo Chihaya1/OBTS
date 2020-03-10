@@ -15,14 +15,23 @@
                 </tr>
                 <tr>
                     <td>Book_name X 1</td>
-                    <td>Smith</td>
-                   
+                    <td>Price</td>
                 </tr>
                 <tr>
-                    <td>Eve</td>
-                    <td>Jackson</td>
-                    
+                    <td>Sub Total</td>
+                    <td>Price</td>
                 </tr>
-            </table> 
-        </div>    
+                <tr>
+                    <td>Total</td>
+                    <td>Price</td>
+                </tr>
+                </table> 
+                <hr>
+                
+                    <button type="previous" class="btn btn-primary">Previous</button>       
+                    <button type="next" class="btn btn-dark">Next</button>       
+                    <button type="back to cart" class="btn btn-success">Back to Cart</button> 
+                         
+        </div>  
 </div>
+        
