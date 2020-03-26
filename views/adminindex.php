@@ -6,7 +6,7 @@
 			<?php require'../partials/nav.php';?>
         </div>
         <!-- slider -->
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-10">
            <?php require'../partials/carousel.php';?>		
         </div>
     </div>
@@ -41,7 +41,7 @@
                         <img src="../public/img/7.jpg"  class="img-fluid">
                     </div>
                     <div class="col-md-3 pt-4 book-8">
-                        <img src="../public/img/8.jpg"  class="img-fluid">
+                        <img src="../public/img/8.jpg"  class="img-fluid"  width = "100">
                     </div>
                 </div>
             </section>

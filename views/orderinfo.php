@@ -34,4 +34,7 @@
                          
         </div>  
 </div>
-        
+<?php require'../partials/footerscript.php';?>
+   
+   </body>
+   </html>

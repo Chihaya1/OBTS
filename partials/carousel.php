@@ -9,13 +9,13 @@
         <!-- The slideshow (slideshow) -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../public/img/slider0.jpg" alt="Los Angeles" class="img-fluid" width="100%">
+                <img src="../public/img/slider0.jpg" alt="Los Angeles"  width="70%">
             </div>
             <div class="carousel-item">
-                <img src="../public/img/slider1.jpg" alt="Chicago" class="img-fluid">
+                <img src="../public/img/slider1.jpg" alt="Chicago" width="70%">
             </div>
             <div class="carousel-item">
-                <img src="../public/img/slider2.jpg" alt="New York"class="img-fluid">
+                <img src="../public/img/slider2.jpg" alt="New York" width="70%">
             </div> 
         </div>
 

@@ -1,4 +1,5 @@
 <?php require '../partials/headscript.php';?>
+<!-- sell ko lagi nav ma haleko chaina -->
 <?php require '../partials/header.php';?>
 <!-- navigation -->
 <div class="row no-gutters">
@@ -6,26 +7,30 @@
 			<?php require'../partials/nav.php';?>
         </div>
         <div class= "col-md-10" >
-            <h2>Deposit Books</h2>
-            <div class="content">
-                <p>Please fill the details of book you want to deposit.</p> 
-            </div>
-            <form enctype="multipart/form-data" method="post">
-                <div class="form-group col-md-6">
-                    <label>Email:</label>
-                    <input type="email" class="form-control" id="email">
-                </div>
+            <h2>Sell Books</h2>
+            <p>Fill the form to sell your books.</p>
+            <form action="" method="post">
                 <div class="form-group col-md-6">
                     <label>Book name:</label>
                     <input type="text" class="form-control" id="book_name">
                 </div>
                 <div class="form-group col-md-6">
-                    <label>Author/Publication name:</label>
-                    <input type="text" class="form-control" id="author">
+                    <label>Category</label>
+                        <select class="form-control" id="">
+                            <option>School</option>
+                            <option>+2</option>
+                            <option>A Level</option>
+                            <option>Bachelors</option>
+                            <option>Comics</option>
+                        </select>
                 </div>
                 <div class="form-group col-md-6">
-                    <label>MRP:</label>
-                    <input type="email" class="form-control" id="MRP">
+                    <label>Publisher</label>
+                    <input type="publisher" class="form-control" id="publisher">
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Price:</label>
+                    <input type="text" class="form-control" id="phone_number">
                 </div>
                 <div class="form-group col-md-6">
                     <label>Condition of Book</label>
@@ -33,11 +38,6 @@
                             <option>First Hand</option>
                             <option>Second Hand</option>
                         </select>
-                </div>
-                <div class="form-group col-md-6">
-                    <p><b>Photos max 2MB</b></p>
-                    <label>Book image</label>
-                    <input type="file" name="book_image" id="">
                 </div>
                 <button type="submit" class="btn btn-dark">Submit</button>
             </form><br>

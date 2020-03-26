@@ -1,6 +1,7 @@
 <nav class="nav">
 	<div class="block-title">
-		<h1> Categories<i class="fa fa-bars"></i></h1>
+		<h1> Categories</h1>
+		<!-- <i class="fa fa-bars"></i> -->
 	</div>
 	<div class="booklists">
 		<ul>

@@ -5,29 +5,29 @@
 		<div class="col-md-2">
 			<?php require'../partials/nav.php';?>
         </div>
-        <div class= "col-md-9 offset-md-1" >
+        <div class= "col-md-10" >
             <h2>Checkout Information</h2>
             <p>Please fill the details.<p>
 
             <form action="" method="post">
-                <div class="form-group">
-                    <label><i class="fa fa-user"></i>First Name:</label>
+                <div class="form-group col-md-6">
+                    <label>First Name:</label>
                     <input type="text" class="form-control" id="first_name">
                 </div>
-                <div class="form-group">
-                    <label><i class="fa fa-user"></i>Last Name:</label>
+                <div class="form-group col-md-6">
+                    <label>Last Name:</label>
                     <input type="text" class="form-control" id="last_name">
                 </div>
-                <div class="form-group">
-                    <label><i class="fa fa-envelope"></i>Email:</label>
+                <div class="form-group col-md-6">
+                    <label>Email:</label>
                     <input type="email" class="form-control" id="email">
                 </div>
-                <div class="form-group">
-                    <label><i class="fa fa-address-card-o"></i>Address:</label>
+                <div class="form-group col-md-6">
+                    <label>Address:</label>
                     <input type="text" class="form-control" name="address" id="">
                 </div>
-                <div class="form-group">
-                    <label><i class="fa fa-institution"></i>Province Number:</label>
+                <div class="form-group col-md-6">
+                    <label>Province Number:</label>
                         <select class="form-control" id="">
                             <option>1</option>
                             <option>2</option>
@@ -38,14 +38,18 @@
                             <option>7</option>
                         </select>
                 </div>
-                <div class="form-group">
+                <div class="form-group col-md-6">
                     <label>Phone number:</label>
                     <input type="text" class="form-control" id="phone_number">
                 </div>
                 <button type="submit" class="btn btn-primary">Next</button>
                 <button type="submit" class="btn btn-dark">Back to cart</button>
-            </form>
+            </form><br>
         </div>
     </div>
+    <?php require'../partials/footerscript.php';?>
+   
+   </body>
+   </html>
 
             

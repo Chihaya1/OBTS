@@ -6,7 +6,7 @@
 	
 }
 
-img{
+.logo{
 	width: 100%;
 	height: 100%;
 	display: block;
@@ -33,7 +33,7 @@ header{
   }
 /* header-top logo */
 .header-top {
-	min-height: 50px;
+	min-height: 20px;
 }
 /* search */
 .input-group.md-form.form-sm.form-1 input {
@@ -42,7 +42,6 @@ header{
 	border-bottom-right-radius: 0.25rem;
 }
  .scart {
-
 	position: relative;
   }
 
@@ -60,7 +59,6 @@ header{
 /* ahref class */
 .nav-link{
 	font-size: 14px;
-	float: right;
   }
 
 /* book-categories */
@@ -68,7 +66,7 @@ header{
 	background-color: #000000;
 	text-align: center;
 	padding: 5px;
-	font-size: 20px;
+	font-size: 25px;
 	color: #ffffff;
 	height: 50px;
 	width:225px;
@@ -100,9 +98,17 @@ table, th, td {
 
 /* FOOTER SECTION */
 footer{
+	position: relative;
+	width: 100%;
+  	height: 180px;
 	background-color: #008080;
 	 padding:20px;  
 	 
+
+}
+.footer-copyright{
+	position: relative;  
+    right: 43%
 }
 /* social media buttons */
 .fa {

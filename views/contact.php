@@ -4,33 +4,33 @@
     <div class="col-md-2 ">
         <?php require '../partials/nav.php';?>
     </div>
-    <div class="col-md-9 offset-md-1">
+    <div class="col-md-10">
         <h2>
             Contact Us 
         </h2>
         <form action="" method="post">
-                <div class="form-group">
-                    <label>Firstname:</label>
-                    <input type="text" class="form-control" id="firstname" placeholder="Enter Firstname" name="firstname">
-                </div>
-                <div class="form-group">
-                    <label>Lastname:</label>
-                    <input type="text" class="form-control" id="laststname" placeholder="Enter Lastname" name="lastname">
-                </div>
-                <div class="form-group">
-                    <label>Email:</label>
-                    <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
-                </div>
-                <div class="form-group">
-                    <label>Phone Number:</label>
-                    <input type="text" class="form-control"  placeholder="Enter Phone number" name="phone_number">
-                </div>
-                <div class="form-group">
-                    <label>Address:</label>
-                    <input type="text" class="form-control"  placeholder="Enter Address" name="address">
-                </div>
+            <div class="form-group col-md-6">
+                <label>Firstname:</label>
+                <input type="text" class="form-control" id="firstname" placeholder="Enter Firstname" name="firstname">
+            </div>
+            <div class="form-group col-md-6">
+                <label>Lastname:</label>
+                <input type="text" class="form-control" id="laststname" placeholder="Enter Lastname" name="lastname">
+            </div>
+            <div class="form-group col-md-6">
+                <label>Email:</label>
+                <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group col-md-6">
+                <label>Phone Number:</label>
+                <input type="text" class="form-control"  placeholder="Enter Phone number" name="phone_number">
+            </div>
+            <div class="form-group col-md-6">
+                <label>Address:</label>
+                <input type="text" class="form-control"  placeholder="Enter Address" name="address">
+            </div>
             <button type="submit" class="btn btn-dark">Submit</button>
-        </form>
+        </form><br>
     </div>    
 </div>
 
